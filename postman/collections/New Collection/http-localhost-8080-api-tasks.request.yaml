@@ -1,0 +1,12 @@
+$kind: http-request
+name: http://localhost:8080///api/tasks
+url: http://localhost:8080///api/tasks
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\" :\"developer \"\r
+
+    }"
+order: 1779310790064
